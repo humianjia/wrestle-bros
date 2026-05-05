@@ -397,8 +397,86 @@ body::before {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
-    position: relative;
-    padding-left: 15px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-title {
+    font-size: 32px;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.page-subtitle {
+    font-size: 16px;
+    color: var(--text-secondary);
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto 30px;
+}
+
+.category-card {
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all 0.3s;
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.1);
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(255, 107, 53, 0.3);
+}
+
+.category-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+.category-card h3 {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+.category-card p {
+    margin: 0 0 15px;
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.category-arrow {
+    color: var(--accent);
+    font-size: 14px;
+}
+
+.games-section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.games-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
 }
 
 .section-title::before {
@@ -561,6 +639,9 @@ body::before {
 
 .content-section {
     margin-bottom: 25px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .game-info {

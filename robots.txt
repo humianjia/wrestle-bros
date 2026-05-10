@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /js/
-Disallow: /css/
 
-Sitemap: https://openfront.space/sitemap.xml
+Sitemap: https://www.wrestlebros.space/sitemap.xml

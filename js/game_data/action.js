@@ -14,7 +14,7 @@ var actionGames = [
             "shooter",
             "action"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/a571ac94d1ed4b2e84a3d604856d81e6/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/a571ac94d1ed4b2e84a3d604856d81e6/"
     },
     {
         "id": "Sort Balls - Cones",
@@ -31,7 +31,7 @@ var actionGames = [
             "puzzle",
             "sorting"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/8c028d59fd2946289d5582a4eee6f850/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/8c028d59fd2946289d5582a4eee6f850/"
     },
     {
         "id": "Dessert DIY",
@@ -48,7 +48,7 @@ var actionGames = [
             "dessert",
             "simulation"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/fbfeecb1e2344c839c7a47096f974fe5/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/fbfeecb1e2344c839c7a47096f974fe5/"
     },
     {
         "id": "Night Club Security",
@@ -65,7 +65,7 @@ var actionGames = [
             "action",
             "nightclub"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/09d017664cad49e9a36d455b3aa046e5/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/09d017664cad49e9a36d455b3aa046e5/"
     },
     {
         "id": "Obby Football Soccer 3D",
@@ -82,7 +82,7 @@ var actionGames = [
             "obstacle",
             "football"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/7c03475573ec4a31b3926cc32b29bff1/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/7c03475573ec4a31b3926cc32b29bff1/"
     },
     {
         "id": "Marshmallow Rush",
@@ -99,6 +99,6 @@ var actionGames = [
             "arcade",
             "fun"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/c68deacab2474d72adeb8a1d7fb23828/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/c68deacab2474d72adeb8a1d7fb23828/"
     }
 ];

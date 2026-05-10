@@ -9,7 +9,7 @@ var battleRoyaleData = [
         "keywords": "Doge's Battle Royale, Doge, battle royale, meme",
         "link": "BattleRoyale/Doge_s_Battle_Royale.html",
         "tags": ["doge", "battle royale", "meme", "funny"],
-        "iframeUrl": "https://html5.gamedistribution.com/f7106e2740504e31be69410a12304172/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/f7106e2740504e31be69410a12304172/"
     },
     {
         "id": "Battle Royale Noob vs Pro",
@@ -21,7 +21,7 @@ var battleRoyaleData = [
         "keywords": "Battle Royale Noob vs Pro, Noob vs Pro, battle royale, survival",
         "link": "BattleRoyale/Battle_Royale_Noob_vs_Pro.html",
         "tags": ["battle royale noob vs pro", "noob vs pro", "battle royale"],
-        "iframeUrl": "https://html5.gamedistribution.com/ab052df5478e46f3b8907dce6799a88f/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/ab052df5478e46f3b8907dce6799a88f/"
     },
     {
         "id": "Top Guns IO",
@@ -33,7 +33,7 @@ var battleRoyaleData = [
         "keywords": "Top Guns IO, aerial, combat, jet, battle royale",
         "link": "BattleRoyale/Top_Guns_IO.html",
         "tags": ["top guns io", "aerial combat", "jet", "battle royale"],
-        "iframeUrl": "https://html5.gamedistribution.com/a8cdacefc98244c0a23f76eff86b1c60/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/a8cdacefc98244c0a23f76eff86b1c60/"
     },
     {
         "id": "Battle Royale Puzzles",
@@ -45,7 +45,7 @@ var battleRoyaleData = [
         "keywords": "Battle Royale Puzzles, puzzle, battle royale, survival",
         "link": "BattleRoyale/Battle_Royale_Puzzles.html",
         "tags": ["battle royale puzzles", "puzzle", "battle royale"],
-        "iframeUrl": "https://html5.gamedistribution.com/6e40272c0d394ab8b6e4104fd4692d51/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/6e40272c0d394ab8b6e4104fd4692d51/"
     },
     {
         "id": "Battle Royale Coloring Book",
@@ -57,7 +57,7 @@ var battleRoyaleData = [
         "keywords": "Battle Royale Coloring Book, coloring, battle royale, creative",
         "link": "BattleRoyale/Battle_Royale_Coloring_Book.html",
         "tags": ["battle royale coloring book", "coloring", "creative"],
-        "iframeUrl": "https://html5.gamedistribution.com/bb7b60d5cf1f4cca9b3009726246cf69/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/bb7b60d5cf1f4cca9b3009726246cf69/"
     },
     {
         "id": "Battle Royale Jigsaw",
@@ -69,7 +69,7 @@ var battleRoyaleData = [
         "keywords": "Battle Royale Jigsaw, jigsaw, puzzle, battle royale",
         "link": "BattleRoyale/Battle_Royale_Jigsaw.html",
         "tags": ["battle royale jigsaw", "jigsaw", "puzzle"],
-        "iframeUrl": "https://html5.gamedistribution.com/4cb0cfaad7f04b71a4316d54b418f089/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/4cb0cfaad7f04b71a4316d54b418f089/"
     },
     {
         "id": "Cube Battle Royale",
@@ -81,7 +81,7 @@ var battleRoyaleData = [
         "keywords": "Cube Battle Royale, cube, blocky, battle royale, Minecraft-style",
         "link": "BattleRoyale/Cube_Battle_Royale.html",
         "tags": ["cube battle royale", "cube", "blocky", "minecraft"],
-        "iframeUrl": "https://html5.gamedistribution.com/5d4d5247537c4009af6104a6a1b20323/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/5d4d5247537c4009af6104a6a1b20323/"
     },
     {
         "id": "Battle Royale Puzzle Challenge",
@@ -93,7 +93,7 @@ var battleRoyaleData = [
         "keywords": "Battle Royale Puzzle Challenge, puzzle challenge, battle royale",
         "link": "BattleRoyale/Battle_Royale_Puzzle_Challenge.html",
         "tags": ["battle royale puzzle challenge", "puzzle", "challenge"],
-        "iframeUrl": "https://html5.gamedistribution.com/0e462cb3e0804b4dbb34878b7bd1c17e/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/0e462cb3e0804b4dbb34878b7bd1c17e/"
     },
     {
         "id": "Pixel Battle Royale Multiplayer",
@@ -105,7 +105,7 @@ var battleRoyaleData = [
         "keywords": "Pixel Battle Royale, pixel, multiplayer, battle royale, retro",
         "link": "BattleRoyale/Pixel_Battle_Royale_Multiplayer.html",
         "tags": ["pixel battle royale", "pixel", "multiplayer", "retro"],
-        "iframeUrl": "https://html5.gamedistribution.com/32bad42c0e3d43f9b2fbcf104e6a710e/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/32bad42c0e3d43f9b2fbcf104e6a710e/"
     },
     {
         "id": "Pixel Battle Royale",
@@ -117,6 +117,6 @@ var battleRoyaleData = [
         "keywords": "Pixel Battle Royale, pixel, battle royale, retro",
         "link": "BattleRoyale/Pixel_Battle_Royale.html",
         "tags": ["pixel battle royale", "pixel", "retro", "battle royale"],
-        "iframeUrl": "https://html5.gamedistribution.com/b798bda4908e4424b18af068e26eb5f0/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/b798bda4908e4424b18af068e26eb5f0/"
     }
 ]

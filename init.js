@@ -1,215 +1,133 @@
-// 加载游戏到主页 iframe
+function getHomeGames() {
+    return [
+        ...(window.gamesData || []),
+        ...(window.actionGames || []),
+        ...(window.battleRoyaleData || []),
+        ...(window.fpsData || []),
+        ...(window.multiplayerGames || []),
+        ...(window.sniperData || [])
+    ];
+}
+
 function loadMainGame() {
-    if (gamesData && gamesData.length > 0) {
-        const firstGame = gamesData[0];
-        const iframe = document.getElementById('game-iframe');
-        const title = document.getElementById('current-game-title');
-        const icon = document.getElementById('game-icon');
-        
-        if (iframe && firstGame.iframeUrl) {
-            iframe.src = firstGame.iframeUrl;
-        }
-        
-        if (title) {
-            title.textContent = firstGame.name || 'Game';
-        }
-        
-        if (icon && firstGame.imageUrl) {
-            icon.src = firstGame.imageUrl.replace('game_icon', 'icon');
-            icon.onerror = function() {
-                this.src = 'img/icon/veckIo.jpg';
-            };
-        }
+    if (!window.gamesData || !window.gamesData.length) {
+        return;
+    }
+
+    const featuredGame = window.gamesData[0];
+    const iframe = document.getElementById("game-iframe");
+    const title = document.getElementById("current-game-title");
+    const icon = document.getElementById("game-icon");
+
+    if (iframe && featuredGame.iframeUrl) {
+        iframe.src = featuredGame.iframeUrl;
+    }
+
+    if (title) {
+        title.textContent = featuredGame.name || "Wrestle Bros";
+    }
+
+    if (icon) {
+        icon.src = featuredGame.imageUrl || "favicon.svg";
+        icon.onerror = function() {
+            this.src = "favicon.svg";
+        };
     }
 }
 
-// 加载游戏（用于点击游戏卡片）
-function loadGame(gameIndex) {
-    if (gamesData && gamesData[gameIndex]) {
-        const game = gamesData[gameIndex];
-        const iframe = document.getElementById('game-iframe');
-        const title = document.getElementById('current-game-title');
-        const icon = document.getElementById('game-icon');
-        
-        if (iframe) {
-            iframe.src = game.iframeUrl || '';
-        }
-        
-        if (title) {
-            title.textContent = game.name || 'Game';
-        }
-        
-        if (icon && game.imageUrl) {
-            icon.src = game.imageUrl.replace('game_icon', 'icon');
-            icon.onerror = function() {
-                this.src = 'img/icon/veckIo.jpg';
-            };
-        }
-    }
-}
-
-// 全屏切换
 function toggleFullscreen() {
-    const iframe = document.getElementById('game-iframe');
-    if (iframe) {
-        if (iframe.requestFullscreen) {
-            iframe.requestFullscreen();
-        } else if (iframe.webkitRequestFullscreen) {
-            iframe.webkitRequestFullscreen();
-        } else if (iframe.msRequestFullscreen) {
-            iframe.msRequestFullscreen();
-        }
+    const iframe = document.getElementById("game-iframe");
+    if (!iframe) {
+        return;
+    }
+
+    if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
     }
 }
 
-// 打乱数组顺序（用于随机排序）
 function shuffleArray(array) {
     const shuffled = [...array];
-    for (let i = shuffled.length - 1; i > 0; i--) {
+    for (let i = shuffled.length - 1; i > 0; i -= 1) {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
     return shuffled;
 }
 
-// 动态生成21个随机游戏卡片
 function loadRelatedGames() {
-    const container = document.getElementById('related-games-container');
-    if (!container) return;
-    
-    // 合并所有分类的游戏数据
-    const allGames = [
-        ...(window.gamesData || []),
-        ...(window.actionGames || []),
-        ...(window.battleRoyaleData || []),
-        ...(window.fpsData || []),
-        ...(window.multiplayerGames || []),
-        ...(window.sniperData || [])
-    ];
-    
-    if (allGames.length === 0) return;
-    
-    // 随机打乱游戏数据，取前21个
-    const shuffledGames = shuffleArray(allGames).slice(0, 21);
-    
-    // 清空容器
-    container.innerHTML = '';
-    
-    // 生成游戏卡片
-    shuffledGames.forEach((game) => {
-        const card = document.createElement('div');
-        card.className = 'game-card';
-        card.setAttribute('data-game', game.id);
-        const imageUrl = game.imageUrl;
+    const container = document.getElementById("related-games-container");
+    if (!container) {
+        return;
+    }
+
+    const featuredId = window.gamesData && window.gamesData[0] ? window.gamesData[0].id : "";
+    const allGames = getHomeGames().filter(game => game.id !== featuredId);
+
+    if (!allGames.length) {
+        return;
+    }
+
+    const pickedGames = shuffleArray(allGames).slice(0, 12);
+    container.innerHTML = "";
+
+    pickedGames.forEach(game => {
+        const card = document.createElement("article");
+        card.className = "game-card";
         card.innerHTML = `
-            <img src="${imageUrl}" alt="${game.name}" onerror="this.src='img/icon/veckIo.jpg'">
+            <img src="${game.imageUrl}" alt="${game.name}" onerror="this.src='img/icon/model.jpg'">
             <div class="game-card-title">${game.name}</div>
         `;
-        card.addEventListener('click', function() {
-            loadGameById(game.id);
+        card.addEventListener("click", function() {
+            if (game.link) {
+                window.location.href = game.link;
+            }
         });
         container.appendChild(card);
     });
 }
 
-// 根据游戏ID跳转到游戏页面
-function loadGameById(gameId) {
-    // 合并所有分类的游戏数据
-    const allGames = [
-        ...(window.gamesData || []),
-        ...(window.actionGames || []),
-        ...(window.battleRoyaleData || []),
-        ...(window.fpsData || []),
-        ...(window.multiplayerGames || []),
-        ...(window.sniperData || [])
-    ];
-
-    const game = allGames.find(g => g.id === gameId);
-    if (!game) return;
-
-    // 跳转到游戏页面
-    if (game.link) {
-        window.location.href = game.link;
-    }
-}
-
-// 页面加载完成后初始化
-document.addEventListener('DOMContentLoaded', function() {
-    // 加载主页游戏
-    loadMainGame();
-
-    // 加载21个随机游戏
-    loadRelatedGames();
-
-    // 初始化粒子背景
-    initParticles();
-
-    // 初始化鼠标跟随效果
-    initCursorGlow();
-
-    // 初始化滚动头效果（仅在需要时启用）
-
-    // 为新游戏区域的卡片添加点击事件
-    const newGameCards = document.querySelectorAll('.series-game');
-    newGameCards.forEach(card => {
-        card.addEventListener('click', function() {
-            const gameIndex = this.getAttribute('data-game');
-            if (gameIndex !== null) {
-                loadGame(parseInt(gameIndex));
-            }
-        });
-    });
-});
-
-// 粒子背景效果
 function initParticles() {
-    const container = document.getElementById('particles');
-    if (!container) return;
+    const container = document.getElementById("particles");
+    if (!container) {
+        return;
+    }
 
-    const colors = ['#ff6b35', '#00d4ff', '#f7c59f'];
+    container.innerHTML = "";
+    const colors = ["#ff5a2a", "#ffd166", "#7cffcb"];
 
-    for (let i = 0; i < 25; i++) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.left = Math.random() * 100 + '%';
-        particle.style.animationDelay = Math.random() * 18 + 's';
-        particle.style.animationDuration = (15 + Math.random() * 8) + 's';
-        particle.style.width = (3 + Math.random() * 3) + 'px';
+    for (let i = 0; i < 22; i += 1) {
+        const particle = document.createElement("div");
+        particle.className = "particle";
+        particle.style.left = Math.random() * 100 + "%";
+        particle.style.animationDelay = Math.random() * 18 + "s";
+        particle.style.animationDuration = 14 + Math.random() * 10 + "s";
+        particle.style.width = 4 + Math.random() * 4 + "px";
         particle.style.height = particle.style.width;
         particle.style.background = colors[Math.floor(Math.random() * colors.length)];
         container.appendChild(particle);
     }
 }
 
-// 鼠标跟随光效
 function initCursorGlow() {
-    const glow = document.getElementById('cursorGlow');
-    if (!glow) return;
+    const glow = document.getElementById("cursorGlow");
+    if (!glow || window.matchMedia("(pointer: coarse)").matches) {
+        return;
+    }
 
-    document.addEventListener('mousemove', (e) => {
-        glow.style.left = e.clientX + 'px';
-        glow.style.top = e.clientY + 'px';
-    });
-
-    document.addEventListener('mouseleave', () => {
-        glow.style.opacity = '0';
-    });
-
-    document.addEventListener('mouseenter', () => {
-        glow.style.opacity = '1';
+    document.addEventListener("mousemove", event => {
+        glow.style.left = event.clientX + "px";
+        glow.style.top = event.clientY + "px";
     });
 }
 
-// 滚动头效果
-function initScrollHeader() {
-    const header = document.querySelector('.header');
-    if (!header) return;
-
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
-        }
-    });
-}
+document.addEventListener("DOMContentLoaded", function() {
+    loadMainGame();
+    loadRelatedGames();
+    initParticles();
+    initCursorGlow();
+});

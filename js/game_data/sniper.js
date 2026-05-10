@@ -14,7 +14,7 @@ var sniperData = [
             "shooting game",
             "3d"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/c8a93a1e1e964e11b3d9803cad9e9c2c/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/c8a93a1e1e964e11b3d9803cad9e9c2c/"
     },
     {
         "id": "Mafia Sniper Crime Shooting",
@@ -31,7 +31,7 @@ var sniperData = [
             "mafia",
             "sniper"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/5083a63adc7248d8b04dd72cde2eb78c/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/5083a63adc7248d8b04dd72cde2eb78c/"
     },
     {
         "id": "Block Sniper",
@@ -48,7 +48,7 @@ var sniperData = [
             "blocky",
             "sniper"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/c458262283b944e3b57c8a26b241a0fc/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/c458262283b944e3b57c8a26b241a0fc/"
     },
     {
         "id": "Counter Craft Sniper",
@@ -65,7 +65,7 @@ var sniperData = [
             "tactical",
             "sniper"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/47fe523bf21d4eaa951e1e0998a1b96c/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/47fe523bf21d4eaa951e1e0998a1b96c/"
     },
     {
         "id": "Aliens Hunter",
@@ -82,6 +82,6 @@ var sniperData = [
             "sci-fi",
             "sniper"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/6259b8781bfe4a1dbcd274ca61837902/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/6259b8781bfe4a1dbcd274ca61837902/"
     }
 ];

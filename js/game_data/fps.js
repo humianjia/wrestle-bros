@@ -14,7 +14,7 @@ var fpsData = [
             "shooter",
             "action"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/343ae1f841604180b7b4cf511da9ab5b/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/343ae1f841604180b7b4cf511da9ab5b/"
     },
     {
         "id": "FPS Toy Realism",
@@ -31,7 +31,7 @@ var fpsData = [
             "toy",
             "shooter"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/797895eeb73f436b95b8683fafd5a65e/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/797895eeb73f436b95b8683fafd5a65e/"
     },
     {
         "id": "Mine FPS shooter: Noob Arena",
@@ -48,7 +48,7 @@ var fpsData = [
             "minecraft",
             "fps"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/59120d9d755c41beb2f00bb73737cd70/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/59120d9d755c41beb2f00bb73737cd70/"
     },
     {
         "id": "3D FPS Target Shooting",
@@ -65,7 +65,7 @@ var fpsData = [
             "shooting",
             "fps"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/75a87aa8fd5a47bf9abb24f0b20488e7/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/75a87aa8fd5a47bf9abb24f0b20488e7/"
     },
     {
         "id": "Merge Gun Fps Shooting Zombie",
@@ -82,7 +82,7 @@ var fpsData = [
             "fps",
             "shooter"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/a299af92e23148ae8cc80731ca3fb229/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/a299af92e23148ae8cc80731ca3fb229/"
     },
     {
         "id": "Hazmob FPS",
@@ -99,7 +99,7 @@ var fpsData = [
             "multiplayer",
             "shooter"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/623baec23d504c83acab0b5250859ba8/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/623baec23d504c83acab0b5250859ba8/"
     },
     {
         "id": "Offline FPS Royale",
@@ -115,7 +115,7 @@ var fpsData = [
             "battle royale",
             "fps"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/a20708d13734415a9428bdcdfb5cd16e/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/a20708d13734415a9428bdcdfb5cd16e/"
     },
     {
         "id": "Infantry Attack Battle 3D FPS",
@@ -132,7 +132,7 @@ var fpsData = [
             "fps",
             "battle"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/89b2098f9fa44e778ee256609f67848d/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/89b2098f9fa44e778ee256609f67848d/"
     },
     {
         "id": "Society FPS",
@@ -149,7 +149,7 @@ var fpsData = [
             "fps",
             "deduction"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/4a51add1b7f94613a7ab8b5949efcba3/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/4a51add1b7f94613a7ab8b5949efcba3/"
     },
     {
         "id": "Subway FPS",
@@ -166,7 +166,7 @@ var fpsData = [
             "terrorist",
             "action"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/fd5f903d4b93483e809891046eb0b180/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/fd5f903d4b93483e809891046eb0b180/"
     },
     {
         "id": "FPS Assault Shooter",
@@ -183,7 +183,7 @@ var fpsData = [
             "rifle",
             "fps"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/0eb473da1c0546f39e348d83219db5e7/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/0eb473da1c0546f39e348d83219db5e7/"
     },
     {
         "id": "Command Strike FPS",
@@ -200,7 +200,7 @@ var fpsData = [
             "fps",
             "military"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/53cb97cc3c334a02b3b7dd4c66c6c45c/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/53cb97cc3c334a02b3b7dd4c66c6c45c/"
     },
     {
         "id": "Real Shooting Fps Strike",
@@ -217,7 +217,7 @@ var fpsData = [
             "fps",
             "strike"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/4a4287fd3156431ea8d6ebfe998744f1/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/4a4287fd3156431ea8d6ebfe998744f1/"
     },
     {
         "id": "FPS Shooting Strike: Modern Combat War 2k20",
@@ -234,7 +234,7 @@ var fpsData = [
             "war",
             "military"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/f7f0ad0613b142f6a3ab06ca1dfc8e5e/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/f7f0ad0613b142f6a3ab06ca1dfc8e5e/"
     },
     {
         "id": "Dragon Slayer FPS",
@@ -251,7 +251,7 @@ var fpsData = [
             "dragon",
             "shooter"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/93f03e6652a145d38412b159bbf6d415/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/93f03e6652a145d38412b159bbf6d415/"
     },
     {
         "id": "Army Fps Shooting",
@@ -268,7 +268,7 @@ var fpsData = [
             "military",
             "soldier"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/b32959ef5d3046bdb23d039b949869a4/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/b32959ef5d3046bdb23d039b949869a4/"
     },
     {
         "id": "Shoot Your Nightmare Double Trouble",
@@ -285,7 +285,7 @@ var fpsData = [
             "shooter",
             "survival"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/830d79ee9b684c3cb15095967684cc7c/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/830d79ee9b684c3cb15095967684cc7c/"
     },
     {
         "id": "Lizard Lady vs Herself",
@@ -302,7 +302,7 @@ var fpsData = [
             "fps",
             "action"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/a6f284bfb9c248d7ba3856b1e60d6435/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/a6f284bfb9c248d7ba3856b1e60d6435/"
     },
     {
         "id": "Lizard Lady vs The Cats",
@@ -319,7 +319,7 @@ var fpsData = [
             "quirky",
             "shooter"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/2b3b3b2bdfc042d2be7650d01c38fbe6/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/2b3b3b2bdfc042d2be7650d01c38fbe6/"
     },
     {
         "id": "CS War Gun King FPS",
@@ -336,7 +336,7 @@ var fpsData = [
             "gun",
             "fps"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/f29a502f781449489e9771112f61d907/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/f29a502f781449489e9771112f61d907/"
     },
     {
         "id": "FPS Simulator",
@@ -353,7 +353,7 @@ var fpsData = [
             "training",
             "aim"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/2952cdc03d9742febf95e22cb6e5756b/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/2952cdc03d9742febf95e22cb6e5756b/"
     },
     {
         "id": "Thief Fps Fire Marshal",
@@ -370,7 +370,7 @@ var fpsData = [
             "action",
             "crime"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/eff38e79e02e49cf99a06c71b20d4067/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/eff38e79e02e49cf99a06c71b20d4067/"
     },
     {
         "id": "FPS Shooter 3D City Wars",
@@ -387,7 +387,7 @@ var fpsData = [
             "urban",
             "combat"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/08e88c3fb875479488c5ed76aa5da40d/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/08e88c3fb875479488c5ed76aa5da40d/"
     },
     {
         "id": "FPS Sniper Shooter: Battle Survival",
@@ -404,7 +404,7 @@ var fpsData = [
             "sniper",
             "precision"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/f8c5baef6b0d4a4db11dbe3fa72ff93e/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/f8c5baef6b0d4a4db11dbe3fa72ff93e/"
     },
     {
         "id": "Alien Infestation FPS",
@@ -421,7 +421,7 @@ var fpsData = [
             "alien",
             "shooter"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/803bcada4e4f43719dc5439fa06da3ac/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/803bcada4e4f43719dc5439fa06da3ac/"
     },
     {
         "id": "FPS Clicker",
@@ -438,7 +438,7 @@ var fpsData = [
             "incremental",
             "action"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/e87b74a9efd14ce693745acc25758131/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/e87b74a9efd14ce693745acc25758131/"
     },
     {
         "id": "Battle SWAT VS Mercenary",
@@ -455,6 +455,6 @@ var fpsData = [
             "tactical",
             "shooter"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/914715ba5aa44f12a5d6520fa394fbbd/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/914715ba5aa44f12a5d6520fa394fbbd/"
     }
 ];

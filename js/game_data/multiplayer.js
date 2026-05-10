@@ -14,7 +14,7 @@ var multiplayerGames = [
             "arena",
             "boomerang"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/4888156f33814739a696e11b32556159/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/4888156f33814739a696e11b32556159/"
     },
     {
         "id": "Brainrots Lava Survive Online",
@@ -31,7 +31,7 @@ var multiplayerGames = [
             "multiplayer",
             "lava"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/f455a9cabb9248e4ab807672ee11f05f/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/f455a9cabb9248e4ab807672ee11f05f/"
     },
     {
         "id": "Tic Tac Toe Merge",
@@ -48,7 +48,7 @@ var multiplayerGames = [
             "puzzle",
             "strategy"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/838b62dc8b334050b6c169a294673f72/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/838b62dc8b334050b6c169a294673f72/"
     },
     {
         "id": "Tsunami Brainrots Online",
@@ -65,7 +65,7 @@ var multiplayerGames = [
             "multiplayer",
             "tsunami"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/305d2a5605784aaf8587ffefc765e5cf/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/305d2a5605784aaf8587ffefc765e5cf/"
     },
     {
         "id": "Animal Racing Idle Park",
@@ -82,6 +82,6 @@ var multiplayerGames = [
             "multiplayer",
             "racing"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/6949c2adc8c64879bf9676109eb9bfea/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
+        "iframeUrl": "https://html5.gamedistribution.com/6949c2adc8c64879bf9676109eb9bfea/"
     }
 ];

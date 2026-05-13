@@ -17,57 +17,6 @@ var actionGames = [
         "iframeUrl": "https://html5.gamedistribution.com/a571ac94d1ed4b2e84a3d604856d81e6/"
     },
     {
-        "id": "Sort Balls - Cones",
-        "name": "Sort Balls - Cones",
-        "imageUrl": "img/icon/Action/SortBalls-Cones.jpg",
-        "gameType": "Action",
-        "rating": "4.2",
-        "description": "Sort Balls - Cones is a puzzle game where players sort colored balls into the correct cones. The game features various levels of increasing difficulty, time challenges, and colorful graphics. Players must use strategy and quick thinking to complete each level.",
-        "keywords": "Sort Balls, Cones, puzzle, sorting, casual",
-        "link": "Action/Sort_Balls_-_Cones.html",
-        "tags": [
-            "sort balls",
-            "cones",
-            "puzzle",
-            "sorting"
-        ],
-        "iframeUrl": "https://html5.gamedistribution.com/8c028d59fd2946289d5582a4eee6f850/"
-    },
-    {
-        "id": "Dessert DIY",
-        "name": "Dessert DIY",
-        "imageUrl": "img/icon/Action/DessertDIY.jpg",
-        "gameType": "Action",
-        "rating": "4.3",
-        "description": "Dessert DIY is a cooking simulation game where players create and decorate delicious desserts. The game features a variety of ingredients, decorations, and recipe options. Players can customize their desserts and share their creations with friends.",
-        "keywords": "Dessert DIY, cooking, dessert, simulation, casual",
-        "link": "Action/Dessert_DIY.html",
-        "tags": [
-            "dessert diy",
-            "cooking",
-            "dessert",
-            "simulation"
-        ],
-        "iframeUrl": "https://html5.gamedistribution.com/fbfeecb1e2344c839c7a47096f974fe5/"
-    },
-    {
-        "id": "Night Club Security",
-        "name": "Night Club Security",
-        "imageUrl": "img/icon/Action/NightClubSecurity.jpg",
-        "gameType": "Action",
-        "rating": "4.1",
-        "description": "Night Club Security is an action game where players protect a nightclub from troublemakers. Players must identify and remove disruptive patrons while ensuring the safety of other guests. The game features various security challenges and realistic nightclub environments.",
-        "keywords": "Night Club Security, security, action, nightclub",
-        "link": "Action/Night_Club_Security.html",
-        "tags": [
-            "night club security",
-            "security",
-            "action",
-            "nightclub"
-        ],
-        "iframeUrl": "https://html5.gamedistribution.com/09d017664cad49e9a36d455b3aa046e5/"
-    },
-    {
         "id": "Obby Football Soccer 3D",
         "name": "Obby Football Soccer 3D",
         "imageUrl": "img/icon/Action/ObbyFootballSoccer3D.jpg",
@@ -83,22 +32,5 @@ var actionGames = [
             "football"
         ],
         "iframeUrl": "https://html5.gamedistribution.com/7c03475573ec4a31b3926cc32b29bff1/"
-    },
-    {
-        "id": "Marshmallow Rush",
-        "name": "Marshmallow Rush",
-        "imageUrl": "img/icon/Action/MarshmallowRush.jpg",
-        "gameType": "Action",
-        "rating": "4.0",
-        "description": "Marshmallow Rush is a fun action game where players help marshmallows escape through various obstacles. The game features colorful graphics, power-ups, and challenging levels. Players must guide the marshmallows to safety while avoiding hazards.",
-        "keywords": "Marshmallow Rush, action, arcade, fun",
-        "link": "Action/Marshmallow_Rush.html",
-        "tags": [
-            "marshmallow rush",
-            "action",
-            "arcade",
-            "fun"
-        ],
-        "iframeUrl": "https://html5.gamedistribution.com/c68deacab2474d72adeb8a1d7fb23828/"
     }
 ];

@@ -127,8 +127,8 @@
                 <div class="game-info compact-info">
                     <div class="info-content">
                         <h2 id="games-section-title">All Games</h2>
-                        <p id="games-section-intro">This page lists the currently available browser games in the selected category. Use the search bar to filter titles by name.</p>
-                        <p><a href="about.html">About the site</a> | <a href="editorial-standards.html">Editorial Standards</a> | <a href="how-we-review-games.html">How We Review Games</a> | <a href="faq.html">FAQ</a></p>
+                        <p id="games-section-intro">This page lists the reviewed browser game pages currently featured on Wrestle Bros Space. Use the search bar to filter titles by name.</p>
+                        <p><a href="about.html">About the site</a> | <a href="embedded-games-disclosure.html">Embedded Games Disclosure</a> | <a href="editorial-standards.html">Editorial Standards</a> | <a href="how-we-review-games.html">How We Review Games</a> | <a href="faq.html">FAQ</a></p>
                     </div>
                 </div>
             </section>
@@ -149,6 +149,7 @@
     <footer class="footer">
         <div class="footer-links">
             <a href="about.html">About</a>
+            <a href="embedded-games-disclosure.html">Embeds Disclosure</a>
             <a href="editorial-standards.html">Editorial Standards</a>
             <a href="how-we-review-games.html">How We Review Games</a>
             <a href="faq.html">FAQ</a>
@@ -234,7 +235,7 @@
                 : allGames.filter(game => game.category === currentCategory);
 
             titleElement.textContent = categories[currentCategory] || "All Games";
-            introElement.textContent = "Browse the current list of titles in this section.";
+            introElement.textContent = "Browse the currently reviewed selection of titles in this section.";
             highlightCurrentCategory(currentCategory);
             container.innerHTML = "";
 

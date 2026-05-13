@@ -9,7 +9,7 @@ var battleRoyaleData = [
         "keywords": "Battle Royale Noob vs Pro, Noob vs Pro, battle royale, survival",
         "link": "BattleRoyale/Battle_Royale_Noob_vs_Pro.html",
         "tags": ["battle royale noob vs pro", "noob vs pro", "battle royale"],
-        "iframeUrl": "https://html5.gamedistribution.com/ab052df5478e46f3b8907dce6799a88f/"
+        "iframeUrl": "https://html5.gamedistribution.com/ab052df5478e46f3b8907dce6799a88f/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
     },
     {
         "id": "Top Guns IO",
@@ -21,6 +21,6 @@ var battleRoyaleData = [
         "keywords": "Top Guns IO, aerial, combat, jet, battle royale",
         "link": "BattleRoyale/Top_Guns_IO.html",
         "tags": ["top guns io", "aerial combat", "jet", "battle royale"],
-        "iframeUrl": "https://html5.gamedistribution.com/a8cdacefc98244c0a23f76eff86b1c60/"
+        "iframeUrl": "https://html5.gamedistribution.com/a8cdacefc98244c0a23f76eff86b1c60/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
     }
 ];

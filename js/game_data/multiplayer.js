@@ -14,6 +14,6 @@ var multiplayerGames = [
             "arena",
             "boomerang"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/4888156f33814739a696e11b32556159/"
+        "iframeUrl": "https://html5.gamedistribution.com/4888156f33814739a696e11b32556159/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
     }
 ];

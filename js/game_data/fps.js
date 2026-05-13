@@ -14,7 +14,7 @@ var fpsData = [
             "multiplayer",
             "shooter"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/623baec23d504c83acab0b5250859ba8/"
+        "iframeUrl": "https://html5.gamedistribution.com/623baec23d504c83acab0b5250859ba8/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
     },
     {
         "id": "Subway FPS",
@@ -31,6 +31,6 @@ var fpsData = [
             "terrorist",
             "action"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/fd5f903d4b93483e809891046eb0b180/"
+        "iframeUrl": "https://html5.gamedistribution.com/fd5f903d4b93483e809891046eb0b180/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
     }
 ];

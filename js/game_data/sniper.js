@@ -14,6 +14,6 @@ var sniperData = [
             "sci-fi",
             "sniper"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/6259b8781bfe4a1dbcd274ca61837902/"
+        "iframeUrl": "https://html5.gamedistribution.com/6259b8781bfe4a1dbcd274ca61837902/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
     }
 ];

@@ -14,7 +14,7 @@ var actionGames = [
             "shooter",
             "action"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/a571ac94d1ed4b2e84a3d604856d81e6/"
+        "iframeUrl": "https://html5.gamedistribution.com/a571ac94d1ed4b2e84a3d604856d81e6/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
     },
     {
         "id": "Obby Football Soccer 3D",
@@ -31,6 +31,6 @@ var actionGames = [
             "obstacle",
             "football"
         ],
-        "iframeUrl": "https://html5.gamedistribution.com/7c03475573ec4a31b3926cc32b29bff1/"
+        "iframeUrl": "https://html5.gamedistribution.com/7c03475573ec4a31b3926cc32b29bff1/?gd_sdk_referrer_url=https%3A%2F%2Fwww.onlinegames.io%2Fcat-runner%2F"
     }
 ];
